@@ -107,3 +107,15 @@ a:hover::before {
         left: calc(100% + 40px);
     }
 }
+
+
+/* media screen */
+
+@media screen and (max-width: 1366px) {
+    .container { 
+        width: 940px;
+        margin-top: 30px;
+        padding: 30px 138px 80px 121px;
+        font-size: 0.85em;
+   }
+  }
