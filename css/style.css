@@ -87,7 +87,7 @@ a::before {
     height: 100%;
     width: 40px;
     background: #eaa258;
-    transform: skewX(-10deg);
+    transform: skewX(-20deg);
     transition: .5s;
     animation: animate 2s linear infinite;
 }
