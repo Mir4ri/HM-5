@@ -60,6 +60,15 @@ blockquote {
     color: rgba(23, 23, 23, 0.7);
 }
 
+blockquote#l-l:before {
+	content: ' “';
+	font-family: Lato, sans-serif;
+	font-size: 50px;
+	font-weight: 300;
+	margin-right: 5px;
+}
+
+
 /* button */
 
 a {
