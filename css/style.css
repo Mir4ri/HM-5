@@ -66,6 +66,7 @@ a {
     position: absolute;
     transform: translate(-50% -50%);
     display: block;
+    font-size: 0.8em;
     padding: 10px 15px;
     border: 2px solid #eaa258;
     background: #FFF;
@@ -89,8 +90,8 @@ a::before {
     width: 50px;
     background: #eaa258;
     transform: skewX(-20deg);
-    transition: .5s;
-    animation: animate 2s linear infinite;
+    transition: .4s;
+    animation: animate 6s linear infinite;
 }
 
 a:hover::before {
@@ -101,7 +102,7 @@ a:hover::before {
 
 @keyframes animate {
     0% {
-        left: -40px;
+        left: -60px;
     }
     100% {
         left: calc(100% + 40px);
@@ -115,7 +116,6 @@ a:hover::before {
     .container { 
         width: 940px;
         margin-top: 30px;
-        padding: 30px 138px 80px 121px;
         font-size: 0.85em;
    }
   }
