@@ -28,11 +28,18 @@ h1 {
     color: #171717;
 }
 
-blockquote {
-    font-size: 1.3em;
-    line-height: 1.42;
-    opacity: 0.7;
-    color: rgba(23, 23, 23, 0.7);
+#f-p::first-letter {
+    margin: 1px 15px 0 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 6.1em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    float: left;
+    text-align: left;
+    line-height: 0.81;
+    letter-spacing: -0.6px;
+    color: #171717;
 }
 
 p {
@@ -42,21 +49,15 @@ p {
     font-stretch: normal;
     line-height: 1.89;
     letter-spacing: -0.1px;
+    margin: 0;
     color: rgba(23, 23, 23, 0.7);
 }
 
-#f-p::first-letter {
-    margin: 1px 2px;
-    font-family: 'Playfair Display', serif;
-    font-size: 6.1em;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    float: left;
-    text-align: left;
-    line-height: 0.31;
-    letter-spacing: -0.6px;
-    color: #171717;
+blockquote {
+    font-size: 1.3em;
+    line-height: 1.42;
+    opacity: 0.7;
+    color: rgba(23, 23, 23, 0.7);
 }
 
 /* button */
@@ -85,7 +86,7 @@ a::before {
     left: 0;
     position: absolute;
     height: 100%;
-    width: 40px;
+    width: 50px;
     background: #eaa258;
     transform: skewX(-20deg);
     transition: .5s;
